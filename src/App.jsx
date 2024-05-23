@@ -1,6 +1,7 @@
 import FeatureSection from './components/FeatureSection';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+import WorkFlow from './components/WorkFlow';
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <main className='overflow-hidden'>
         <HeroSection />
         <FeatureSection />
+        <WorkFlow />
       </main>
     </>
   );

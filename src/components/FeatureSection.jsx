@@ -2,8 +2,8 @@ import { features } from "../constants/index"
 
 const FeatureSection = () => {
     return (
-        <section className="relative border-b border-neutral-500 pt-20 min-h-[800px]">
-            <div className="container">
+        <section className="relative pt-20 min-h-[800px]">
+            <div className="container border-b border-neutral-800 ">
                 <div className="text-center">
                     <span className="px-3 py-2 text-orange-500 bg-neutral-900 rounded-full uppercase text-sm font-medium">
                         feature
