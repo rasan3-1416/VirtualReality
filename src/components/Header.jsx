@@ -10,8 +10,8 @@ const Header = () => {
     }
     return (
         <>
-            <header>
-                <nav className="sticky top-0 z-50 backdrop-blur-lg border-b py-3 border-neutral-700/80">
+            <header className="sticky top-0 z-50">
+                <nav className="backdrop-blur-lg border-b py-3 border-neutral-700/80">
                     <div className="container relative text-sm">
                         <div className="flex justify-between items-center">
                             <a className="flex flex-shrink-0 items-center gap-x-2" href="">
@@ -39,6 +39,7 @@ const Header = () => {
                                     {mobileDrawerOpen ? <X /> : <Menu />}
                                 </button>
                             </div>
+                            {/* Mobile Menu */}
                             {mobileDrawerOpen && (
                                 <div className="fixed top-16 right-0 z-20 w-full flex flex-col justify-center items-center bg-neutral-900 p-12 lg:hidden transition">
                                     <ul>
