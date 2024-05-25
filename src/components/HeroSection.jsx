@@ -20,7 +20,7 @@ const Hero = () => {
                         <a className="px-3 py-3 bg-gradient-to-r from-orange-500 to-orange-800 rounded-md" href="#">
                             Start For Free
                         </a>
-                        <a className="px-3 py-2 border rounded-md" href="#">
+                        <a className="px-3 py-3 border rounded-md" href="#">
                             Documentation
                         </a>
                     </div>
